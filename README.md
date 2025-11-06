@@ -1,5 +1,7 @@
 # Tech Stack Stickers
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## 📂 Organization Strategy
 
 **This branch uses: Flat Structure**
