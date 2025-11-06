@@ -8,6 +8,41 @@ Pipeline to compile a curated list of tech stack logos and export high-resolutio
 - 3 PNG sizes per icon (Small/Medium/Large)
 - Total assets: 123 SVGs + 369 PNGs
 
+## 🗂️ Asset Organization Proposals
+
+This repository includes **4 different categorization schemes** for organizing the tech stack icons, each on a separate branch. All proposals include the same 123 icons but organize them into different category folders to suit different use cases.
+
+### Available Proposals
+
+| Branch | Categories | Philosophy |
+|--------|-----------|------------|
+| **[proposal-1-role-based](../../tree/proposal-1-role-based)** | 9 categories | Organize by technical role (Frontend, Backend, DevOps, etc.) |
+| **[proposal-2-layer-based](../../tree/proposal-2-layer-based)** | 7 categories | Organize by application architecture layers (UI, Data, Platform, etc.) |
+| **[proposal-3-ecosystem-based](../../tree/proposal-3-ecosystem-based)** | 11 categories | Organize by technology ecosystems (React, Python, JVM, etc.) |
+| **[proposal-4-usecase-based](../../tree/proposal-4-usecase-based)** | 8 categories | Organize by developer use cases (Web Dev, Data Science, Cloud, etc.) |
+
+### Switching Between Proposals
+
+```bash
+# Switch to a proposal branch
+git checkout proposal-1-role-based
+
+# View categories in that proposal
+ls assets/svg
+
+# Generate assets for the current proposal
+npm run generate
+
+# Verify the organization
+pwsh scripts/verify-all-branches.ps1
+```
+
+### Category Mappings
+
+Each proposal's category definitions are stored in `data/category-mappings.json`. The generator automatically detects the current branch and organizes assets accordingly.
+
+📊 **See [PROPOSALS_COMPARISON.md](PROPOSALS_COMPARISON.md) for detailed comparison** of all 4 schemes with category breakdowns and recommendations.
+
 ## Goals
 - Source icons from the Simple Icons catalog (permissive, vector SVGs with official brand colors).
 - Export: SVG originals with injected brand colors and PNGs at three sizes suitable for sticker printing.
