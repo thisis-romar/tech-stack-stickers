@@ -1,5 +1,37 @@
 # Tech Stack Stickers
 
+## 📂 Organization Strategy
+
+**This branch uses: Use Case Organization**
+
+Icons organized by practical application scenarios
+
+### Directory Structure
+```
+assets/svg/{usecase}/*.svg
+```
+
+### Categories
+- `backend-api/`
+- `cloud-deployment/`
+- `collaboration/`
+- `data-science/`
+- `machine-learning/`
+- `mobile-apps/`
+- `systems-programming/`
+- `web-development/`
+
+### Benefits
+- Organized by what you're building
+- Easy to find tools for specific projects
+- Great for project-specific sticker packs
+- Aligns with user intent
+
+### Ideal Use Case
+"I'm building a mobile app, what do I need?" or "Show me data science tools"
+
+---
+
 Pipeline to compile a curated list of tech stack logos and export high-resolution **FULL-COLOR** SVG and PNG sticker assets in three sizes (Small, Medium, Large).
 
 ## ✅ Project Status
