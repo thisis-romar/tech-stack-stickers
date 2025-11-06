@@ -1,0 +1,110 @@
+{
+  "branches": {
+    "main": {
+      "name": "main",
+      "strategy": "Flat Structure",
+      "description": "All icons in a single directory without categorization",
+      "structure": "assets/svg/*.svg",
+      "benefits": [
+        "Simple browsing - all icons in one place",
+        "No categorization overhead",
+        "Best for small collections or alphabetical browsing"
+      ],
+      "useCase": "Quick access when you know exactly which icon you need"
+    },
+    "proposal-1-role-based": {
+      "name": "proposal-1-role-based",
+      "strategy": "Role-Based Organization",
+      "description": "Icons organized by developer roles and job functions",
+      "structure": "assets/svg/{role}/*.svg",
+      "categories": [
+        "backend-api",
+        "cloud-deployment",
+        "collaboration",
+        "data-science",
+        "machine-learning",
+        "mobile-apps",
+        "systems-programming",
+        "web-development"
+      ],
+      "benefits": [
+        "Aligns with team structure and job roles",
+        "Easy to find icons relevant to your position",
+        "Great for role-specific sticker packs",
+        "Supports career-based filtering"
+      ],
+      "useCase": "\"I'm a backend developer, show me my stack\" or \"What tools do data scientists use?\""
+    },
+    "proposal-2-layer-based": {
+      "name": "proposal-2-layer-based",
+      "strategy": "Architecture Layer Organization",
+      "description": "Icons organized by technical architecture layers",
+      "structure": "assets/svg/{layer}/*.svg",
+      "categories": [
+        "application-layer",
+        "cloud-services",
+        "data-layer",
+        "developer-tools",
+        "languages",
+        "platform-layer",
+        "ui-layer"
+      ],
+      "benefits": [
+        "Follows standard architecture diagrams",
+        "Easy to build stack from bottom-up",
+        "Aligns with technical documentation",
+        "Great for system design discussions"
+      ],
+      "useCase": "\"What's in my data layer?\" or \"Show me all UI technologies\""
+    },
+    "proposal-3-ecosystem-based": {
+      "name": "proposal-3-ecosystem-based",
+      "strategy": "Technology Ecosystem Organization",
+      "description": "Icons grouped by technology families and ecosystems",
+      "structure": "assets/svg/{ecosystem}/*.svg",
+      "categories": [
+        "cloud-platforms",
+        "databases",
+        "devops-cncf",
+        "google-stack",
+        "independent-tools",
+        "jvm-ecosystem",
+        "microsoft-stack",
+        "python-ecosystem",
+        "react-ecosystem",
+        "vue-ecosystem",
+        "web-core"
+      ],
+      "benefits": [
+        "Natural grouping by technology communities",
+        "Easy to find complementary tools",
+        "Reflects how developers identify (\"I'm a React developer\")",
+        "Great for ecosystem-specific sticker sets"
+      ],
+      "useCase": "\"Give me all React-related tools\" or \"What's in the Python ecosystem?\""
+    },
+    "proposal-4-usecase-based": {
+      "name": "proposal-4-usecase-based",
+      "strategy": "Use Case Organization",
+      "description": "Icons organized by practical application scenarios",
+      "structure": "assets/svg/{usecase}/*.svg",
+      "categories": [
+        "backend-api",
+        "cloud-deployment",
+        "collaboration",
+        "data-science",
+        "machine-learning",
+        "mobile-apps",
+        "systems-programming",
+        "web-development"
+      ],
+      "benefits": [
+        "Organized by what you're building",
+        "Easy to find tools for specific projects",
+        "Great for project-specific sticker packs",
+        "Aligns with user intent"
+      ],
+      "useCase": "\"I'm building a mobile app, what do I need?\" or \"Show me data science tools\""
+    }
+  }
+}
