@@ -1,5 +1,37 @@
 # Tech Stack Stickers
 
+## 📂 Organization Strategy
+
+**This branch uses: Role-Based Organization**
+
+Icons organized by developer roles and job functions
+
+### Directory Structure
+```
+assets/svg/{role}/*.svg
+```
+
+### Categories
+- `backend-api/`
+- `cloud-deployment/`
+- `collaboration/`
+- `data-science/`
+- `machine-learning/`
+- `mobile-apps/`
+- `systems-programming/`
+- `web-development/`
+
+### Benefits
+- Aligns with team structure and job roles
+- Easy to find icons relevant to your position
+- Great for role-specific sticker packs
+- Supports career-based filtering
+
+### Ideal Use Case
+"I'm a backend developer, show me my stack" or "What tools do data scientists use?"
+
+---
+
 Pipeline to compile a curated list of tech stack logos and export high-resolution **FULL-COLOR** SVG and PNG sticker assets in three sizes (Small, Medium, Large).
 
 ## ✅ Project Status
