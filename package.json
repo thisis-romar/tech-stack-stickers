@@ -1,0 +1,13 @@
+{
+  "name": "tech-stack-stickers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/fetch-icons.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.34.4",
+    "simple-icons": "^15.19.0"
+  }
+}

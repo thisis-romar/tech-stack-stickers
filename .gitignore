@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Generated PNG assets (regenerate with npm run generate)
+assets/png/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional: Keep SVGs but ignore PNGs (SVGs are smaller, PNGs can be regenerated)
+# Uncomment if you want to track SVGs in git:
+# !assets/svg/
