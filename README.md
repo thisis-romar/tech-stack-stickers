@@ -1,5 +1,29 @@
 # Tech Stack Stickers
 
+## 📂 Organization Strategy
+
+**This branch uses: Flat Structure**
+
+All icons in a single directory without categorization
+
+### Directory Structure
+```
+assets/svg/*.svg
+```
+
+### Categories
+- All icons in root directory
+
+### Benefits
+- Simple browsing - all icons in one place
+- No categorization overhead
+- Best for small collections or alphabetical browsing
+
+### Ideal Use Case
+Quick access when you know exactly which icon you need
+
+---
+
 Pipeline to compile a curated list of tech stack logos and export high-resolution **FULL-COLOR** SVG and PNG sticker assets in three sizes (Small, Medium, Large).
 
 ## ✅ Project Status
