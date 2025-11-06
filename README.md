@@ -1,5 +1,40 @@
 # Tech Stack Stickers
 
+## 📂 Organization Strategy
+
+**This branch uses: Technology Ecosystem Organization**
+
+Icons grouped by technology families and ecosystems
+
+### Directory Structure
+```
+assets/svg/{ecosystem}/*.svg
+```
+
+### Categories
+- `cloud-platforms/`
+- `databases/`
+- `devops-cncf/`
+- `google-stack/`
+- `independent-tools/`
+- `jvm-ecosystem/`
+- `microsoft-stack/`
+- `python-ecosystem/`
+- `react-ecosystem/`
+- `vue-ecosystem/`
+- `web-core/`
+
+### Benefits
+- Natural grouping by technology communities
+- Easy to find complementary tools
+- Reflects how developers identify ("I'm a React developer")
+- Great for ecosystem-specific sticker sets
+
+### Ideal Use Case
+"Give me all React-related tools" or "What's in the Python ecosystem?"
+
+---
+
 Pipeline to compile a curated list of tech stack logos and export high-resolution **FULL-COLOR** SVG and PNG sticker assets in three sizes (Small, Medium, Large).
 
 ## ✅ Project Status
