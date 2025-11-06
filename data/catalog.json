@@ -3,6 +3,7 @@
     "slug": "javascript",
     "title": "JavaScript",
     "hex": "F7DF1E",
+    "category": "web-development",
     "source": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
     "license": {
       "type": "MIT",
@@ -13,6 +14,7 @@
     "slug": "typescript",
     "title": "TypeScript",
     "hex": "3178C6",
+    "category": "web-development",
     "source": "https://www.typescriptlang.org/branding",
     "guidelines": "https://www.typescriptlang.org/branding"
   },
@@ -20,6 +22,7 @@
     "slug": "nodedotjs",
     "title": "Node.js",
     "hex": "5FA04E",
+    "category": "backend-api",
     "source": "https://nodejs.org/en/about/branding",
     "guidelines": "https://nodejs.org/en/about/branding"
   },
@@ -27,12 +30,14 @@
     "slug": "react",
     "title": "React",
     "hex": "61DAFB",
+    "category": "web-development",
     "source": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg"
   },
   {
     "slug": "nextdotjs",
     "title": "Next.js",
     "hex": "000000",
+    "category": "web-development",
     "source": "https://vercel.com/design/brands#next-js",
     "guidelines": "https://vercel.com/design/brands#next-js"
   },
@@ -40,6 +45,7 @@
     "slug": "vuedotjs",
     "title": "Vue.js",
     "hex": "4FC08D",
+    "category": "web-development",
     "source": "https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg",
     "guidelines": "https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/README.md",
     "license": {
@@ -51,6 +57,7 @@
     "slug": "nuxt",
     "title": "Nuxt",
     "hex": "00DC82",
+    "category": "web-development",
     "source": "https://nuxt.com/design-kit",
     "guidelines": "https://nuxt.com/design-kit"
   },
@@ -58,12 +65,14 @@
     "slug": "svelte",
     "title": "Svelte",
     "hex": "FF3E00",
+    "category": "web-development",
     "source": "https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg"
   },
   {
     "slug": "angular",
     "title": "Angular",
     "hex": "0F0F11",
+    "category": "web-development",
     "source": "https://angular.dev/press-kit",
     "guidelines": "https://angular.dev/press-kit",
     "license": {
@@ -75,24 +84,28 @@
     "slug": "solid",
     "title": "Solid",
     "hex": "2C4F7C",
+    "category": "web-development",
     "source": "https://www.solidjs.com/media"
   },
   {
     "slug": "qwik",
     "title": "Qwik",
     "hex": "AC7EF4",
+    "category": "web-development",
     "source": "https://github.com/BuilderIO/qwik/blob/c88e53d49dc65020899d770338f4e51f3134611e/packages/docs/public/logos/qwik-logo.svg"
   },
   {
     "slug": "astro",
     "title": "Astro",
     "hex": "BC52EE",
+    "category": "web-development",
     "source": "https://astro.build/press"
   },
   {
     "slug": "webpack",
     "title": "Webpack",
     "hex": "8DD6F9",
+    "category": "web-development",
     "source": "https://webpack.js.org/branding",
     "guidelines": "https://webpack.js.org/branding",
     "license": {
@@ -104,48 +117,56 @@
     "slug": "vite",
     "title": "Vite",
     "hex": "646CFF",
+    "category": "web-development",
     "source": "https://vitejs.dev"
   },
   {
     "slug": "babel",
     "title": "Babel",
     "hex": "F9DC3E",
+    "category": "web-development",
     "source": "https://github.com/babel/website/blob/93330158b6ecca1ab88d3be8dbf661f5c2da6c76/website/static/img/babel-black.svg"
   },
   {
     "slug": "eslint",
     "title": "ESLint",
     "hex": "4B32C3",
+    "category": "systems-programming",
     "source": "https://eslint.org"
   },
   {
     "slug": "prettier",
     "title": "Prettier",
     "hex": "F7B93E",
+    "category": "systems-programming",
     "source": "https://github.com/prettier/prettier-logo/blob/06997b307e0608ebee2044dafa0b9429d6b5a103/images/prettier-icon-clean-centred.svg"
   },
   {
     "slug": "jest",
     "title": "Jest",
     "hex": "C21325",
+    "category": "systems-programming",
     "source": "https://jestjs.io"
   },
   {
     "slug": "vitest",
     "title": "Vitest",
     "hex": "6E9F18",
+    "category": "systems-programming",
     "source": "https://vitest.dev"
   },
   {
     "slug": "cypress",
     "title": "Cypress",
     "hex": "69D3A7",
+    "category": "systems-programming",
     "source": "https://www.cypress.io/press-kit"
   },
   {
     "slug": "storybook",
     "title": "Storybook",
     "hex": "FF4785",
+    "category": "systems-programming",
     "source": "https://github.com/storybookjs/brand/tree/6f4d67f65f8275c53c310a73a8da6c6e96c8488c",
     "license": {
       "type": "MIT",
@@ -156,6 +177,7 @@
     "slug": "tailwindcss",
     "title": "Tailwind CSS",
     "hex": "06B6D4",
+    "category": "web-development",
     "source": "https://tailwindcss.com/brand",
     "guidelines": "https://tailwindcss.com/brand"
   },
@@ -163,6 +185,7 @@
     "slug": "bootstrap",
     "title": "Bootstrap",
     "hex": "7952B3",
+    "category": "web-development",
     "source": "https://getbootstrap.com/docs/5.3/about/brand",
     "guidelines": "https://getbootstrap.com/docs/5.3/about/brand",
     "license": {
@@ -174,12 +197,14 @@
     "slug": "materialdesign",
     "title": "Material Design",
     "hex": "6750A4",
+    "category": "web-development",
     "source": "https://m3.material.io"
   },
   {
     "slug": "sass",
     "title": "Sass",
     "hex": "CC6699",
+    "category": "web-development",
     "source": "https://sass-lang.com/styleguide/brand",
     "guidelines": "https://sass-lang.com/styleguide/brand",
     "license": {
@@ -191,24 +216,28 @@
     "slug": "less",
     "title": "Less",
     "hex": "1D365D",
+    "category": "web-development",
     "source": "https://github.com/less/logo/blob/c9c10c328cfc00071e92443934b35e389310abf8/less_logo.ai"
   },
   {
     "slug": "stylus",
     "title": "Stylus",
     "hex": "333333",
+    "category": "web-development",
     "source": "https://github.com/stylus/stylus-lang.com/blob/c833bf697e39e1174c7c6e679e0e5a23d0baeb90/img/stylus-logo.svg"
   },
   {
     "slug": "html5",
     "title": "HTML5",
     "hex": "E34F26",
+    "category": "web-development",
     "source": "https://www.w3.org/html/logo/"
   },
   {
     "slug": "css",
     "title": "CSS",
     "hex": "663399",
+    "category": "web-development",
     "source": "https://github.com/CSS-Next/logo.css/blob/bacc20878227204b283c68a6b935f8279e06b0cd/css.svg",
     "guidelines": "https://github.com/CSS-Next/logo.css"
   },
@@ -216,12 +245,14 @@
     "slug": "webassembly",
     "title": "WebAssembly",
     "hex": "654FF0",
+    "category": "systems-programming",
     "source": "https://webassembly.org"
   },
   {
     "slug": "python",
     "title": "Python",
     "hex": "3776AB",
+    "category": "data-science",
     "source": "https://www.python.org/community/logos/",
     "guidelines": "https://www.python.org/community/logos/"
   },
@@ -229,48 +260,56 @@
     "slug": "django",
     "title": "Django",
     "hex": "092E20",
+    "category": "backend-api",
     "source": "https://www.djangoproject.com/community/logos/"
   },
   {
     "slug": "flask",
     "title": "Flask",
     "hex": "3BABC3",
+    "category": "backend-api",
     "source": "https://github.com/pallets/flask/blob/85c5d93cbd049c4bd0679c36fd1ddcae8c37b642/docs/_static/flask-icon.svg"
   },
   {
     "slug": "fastapi",
     "title": "FastAPI",
     "hex": "009688",
+    "category": "backend-api",
     "source": "https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg"
   },
   {
     "slug": "pydantic",
     "title": "Pydantic",
     "hex": "E92063",
+    "category": "systems-programming",
     "source": "https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg"
   },
   {
     "slug": "poetry",
     "title": "Poetry",
     "hex": "60A5FA",
+    "category": "systems-programming",
     "source": "https://python-poetry.org"
   },
   {
     "slug": "pipx",
     "title": "pipx",
     "hex": "2CFFAA",
+    "category": "systems-programming",
     "source": "https://github.com/pypa/pipx/blob/fc9c95349cfcec1d886c26b70329257de53e10cb/logo.svg"
   },
   {
     "slug": "anaconda",
     "title": "Anaconda",
     "hex": "44A833",
+    "category": "data-science",
     "source": "https://www.anaconda.com"
   },
   {
     "slug": "jupyter",
     "title": "Jupyter",
     "hex": "F37626",
+    "category": "data-science",
     "source": "https://github.com/jupyter/design/blob/80716ee75dd7b2a6ec6abcd89922d020483589b1/logos/Logo%20Mark/logomark-whitebody-whitemoons/logomark-whitebody-whitemoons.svg",
     "guidelines": "https://github.com/jupyter/design"
   },
@@ -278,6 +317,7 @@
     "slug": "pandas",
     "title": "pandas",
     "hex": "150458",
+    "category": "data-science",
     "source": "https://pandas.pydata.org/about/citing.html",
     "guidelines": "https://pandas.pydata.org/about/citing.html"
   },
@@ -285,6 +325,7 @@
     "slug": "numpy",
     "title": "NumPy",
     "hex": "013243",
+    "category": "data-science",
     "source": "https://numpy.org/press-kit/",
     "guidelines": "https://github.com/numpy/numpy/blob/main/branding/logo/logoguidelines.md"
   },
@@ -292,18 +333,21 @@
     "slug": "scikitlearn",
     "title": "scikit-learn",
     "hex": "F7931E",
+    "category": "data-science",
     "source": "https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg"
   },
   {
     "slug": "tensorflow",
     "title": "TensorFlow",
     "hex": "FF6F00",
+    "category": "machine-learning",
     "source": "https://www.tensorflow.org"
   },
   {
     "slug": "pytorch",
     "title": "PyTorch",
     "hex": "EE4C2C",
+    "category": "machine-learning",
     "source": "https://github.com/pytorch/pytorch.github.io/blob/8f083bd12192ca12d5e1c1f3d236f4831d823d8f/assets/images/logo.svg",
     "guidelines": "https://github.com/pytorch/pytorch.github.io/blob/381117ec296f002b2de475402ef29cca6c55e209/assets/brand-guidelines/PyTorch-Brand-Guidelines.pdf"
   },
@@ -311,6 +355,7 @@
     "slug": "opencv",
     "title": "OpenCV",
     "hex": "5C3EE8",
+    "category": "machine-learning",
     "source": "https://opencv.org/resources/media-kit/",
     "guidelines": "https://opencv.org/resources/media-kit/"
   },
@@ -318,6 +363,7 @@
     "slug": "rust",
     "title": "Rust",
     "hex": "000000",
+    "category": "systems-programming",
     "source": "https://www.rust-lang.org",
     "guidelines": "https://www.rust-lang.org/policies/media-guide",
     "license": {
@@ -329,6 +375,7 @@
     "slug": "go",
     "title": "Go",
     "hex": "00ADD8",
+    "category": "systems-programming",
     "source": "https://blog.golang.org/go-brand",
     "guidelines": "https://blog.golang.org/go-brand"
   },
@@ -336,6 +383,7 @@
     "slug": "openjdk",
     "title": "OpenJDK",
     "hex": "000000",
+    "category": "systems-programming",
     "source": "https://hg.openjdk.java.net/duke/duke/file/ca00f100dafc/vector/Agent.svg",
     "license": {
       "type": "BSD-3-Clause",
@@ -346,12 +394,14 @@
     "slug": "spring",
     "title": "Spring",
     "hex": "6DB33F",
+    "category": "backend-api",
     "source": "https://spring.io/trademarks"
   },
   {
     "slug": "kotlin",
     "title": "Kotlin",
     "hex": "7F52FF",
+    "category": "systems-programming",
     "source": "https://www.jetbrains.com/company/brand/logos/",
     "guidelines": "https://www.jetbrains.com/company/brand/"
   },
@@ -359,12 +409,14 @@
     "slug": "scala",
     "title": "Scala",
     "hex": "DC322F",
+    "category": "systems-programming",
     "source": "https://www.scala-lang.org"
   },
   {
     "slug": "apachegroovy",
     "title": "Apache Groovy",
     "hex": "4298B8",
+    "category": "systems-programming",
     "source": "https://apache.org/logos",
     "guidelines": "https://www.apache.org/foundation/marks",
     "license": {
@@ -376,6 +428,7 @@
     "slug": "apachemaven",
     "title": "Apache Maven",
     "hex": "C71A36",
+    "category": "systems-programming",
     "source": "https://apache.org/logos",
     "guidelines": "https://www.apache.org/foundation/marks",
     "license": {
@@ -387,6 +440,7 @@
     "slug": "gradle",
     "title": "Gradle",
     "hex": "02303A",
+    "category": "systems-programming",
     "source": "https://gradle.com/brand",
     "guidelines": "https://gradle.com/brand"
   },
@@ -394,18 +448,21 @@
     "slug": "c",
     "title": "C",
     "hex": "A8B9CC",
+    "category": "systems-programming",
     "source": "https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg"
   },
   {
     "slug": "cplusplus",
     "title": "C++",
     "hex": "00599C",
+    "category": "systems-programming",
     "source": "https://github.com/isocpp/logos/tree/64ef037049f87ac74875dbe72695e59118b52186"
   },
   {
     "slug": "qt",
     "title": "Qt",
     "hex": "41CD52",
+    "category": "systems-programming",
     "source": "https://www.qt.io",
     "guidelines": "https://www.qt.io/brand"
   },
@@ -413,6 +470,7 @@
     "slug": "dotnet",
     "title": ".NET",
     "hex": "512BD4",
+    "category": "systems-programming",
     "source": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg",
     "guidelines": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/dotnet-styleGuide-2024.pdf",
     "license": {
@@ -424,12 +482,14 @@
     "slug": "sharp",
     "title": "sharp",
     "hex": "99CC00",
+    "category": "systems-programming",
     "source": "https://github.com/lovell/sharp/blob/315f519e1dd9adca0678e94a5ed0492cb5e0aae4/docs/image/sharp-logo-mono.svg"
   },
   {
     "slug": "fsharp",
     "title": "F#",
     "hex": "378BBA",
+    "category": "systems-programming",
     "source": "https://foundation.fsharp.org/logo",
     "guidelines": "https://foundation.fsharp.org/logo"
   },
@@ -437,6 +497,7 @@
     "slug": "php",
     "title": "PHP",
     "hex": "777BB4",
+    "category": "systems-programming",
     "source": "https://php.net/download-logos.php",
     "license": {
       "type": "CC-BY-SA-4.0",
@@ -447,12 +508,14 @@
     "slug": "laravel",
     "title": "Laravel",
     "hex": "FF2D20",
+    "category": "backend-api",
     "source": "https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211"
   },
   {
     "slug": "symfony",
     "title": "Symfony",
     "hex": "000000",
+    "category": "backend-api",
     "source": "https://symfony.com/logo",
     "guidelines": "https://symfony.com/trademark"
   },
@@ -460,6 +523,7 @@
     "slug": "wordpress",
     "title": "WordPress",
     "hex": "21759B",
+    "category": "systems-programming",
     "source": "https://wordpress.org/about/logos",
     "guidelines": "https://wordpressfoundation.org/trademark-policy"
   },
@@ -467,6 +531,7 @@
     "slug": "ruby",
     "title": "Ruby",
     "hex": "CC342D",
+    "category": "systems-programming",
     "source": "https://www.ruby-lang.org/en/about/logo/",
     "license": {
       "type": "CC-BY-SA-2.5",
@@ -477,6 +542,7 @@
     "slug": "rubyonrails",
     "title": "Ruby on Rails",
     "hex": "D30001",
+    "category": "backend-api",
     "source": "https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580",
     "guidelines": "https://rubyonrails.org/trademarks/"
   },
@@ -484,36 +550,42 @@
     "slug": "crystal",
     "title": "Crystal",
     "hex": "000000",
+    "category": "systems-programming",
     "source": "https://crystal-lang.org/media/"
   },
   {
     "slug": "elixir",
     "title": "Elixir",
     "hex": "4B275F",
+    "category": "systems-programming",
     "source": "https://github.com/elixir-lang/elixir-lang.github.com/tree/031746384ee23b9be19298c92a9699c56cc05845/images/logo"
   },
   {
     "slug": "phoenixframework",
     "title": "Phoenix Framework",
     "hex": "FD4F00",
+    "category": "backend-api",
     "source": "https://github.com/phoenixframework/phoenix/blob/e9f1975d5aa15bee22bab6a4acae8f543886b17a/installer/templates/phx_assets/logo.svg"
   },
   {
     "slug": "erlang",
     "title": "Erlang",
     "hex": "A90533",
+    "category": "systems-programming",
     "source": "https://github.com/erlang/erlide_eclipse/blob/99d1d61fde8e32ef1630ca0e1b05a6822b3d6489/meta/media/erlang-logo.svg"
   },
   {
     "slug": "dart",
     "title": "Dart",
     "hex": "0175C2",
+    "category": "mobile-apps",
     "source": "https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo"
   },
   {
     "slug": "flutter",
     "title": "Flutter",
     "hex": "02569B",
+    "category": "mobile-apps",
     "source": "https://flutter.dev/brand",
     "guidelines": "https://flutter.dev/brand"
   },
@@ -521,6 +593,7 @@
     "slug": "swift",
     "title": "Swift",
     "hex": "F05138",
+    "category": "mobile-apps",
     "source": "https://developer.apple.com/swift/resources/",
     "guidelines": "https://developer.apple.com/swift/resources/"
   },
@@ -528,12 +601,14 @@
     "slug": "xcode",
     "title": "Xcode",
     "hex": "147EFB",
+    "category": "mobile-apps",
     "source": "https://developer.apple.com/develop"
   },
   {
     "slug": "android",
     "title": "Android",
     "hex": "3DDC84",
+    "category": "mobile-apps",
     "source": "https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups",
     "guidelines": "https://developer.android.com/distribute/marketing-tools/brand-guidelines#brand-android",
     "license": {
@@ -545,30 +620,35 @@
     "slug": "androidstudio",
     "title": "Android Studio",
     "hex": "3DDC84",
+    "category": "mobile-apps",
     "source": "https://developer.android.com/studio"
   },
   {
     "slug": "apple",
     "title": "Apple",
     "hex": "000000",
+    "category": "mobile-apps",
     "source": "https://www.apple.com"
   },
   {
     "slug": "ios",
     "title": "iOS",
     "hex": "000000",
+    "category": "mobile-apps",
     "source": "https://en.wikipedia.org/wiki/IOS"
   },
   {
     "slug": "linux",
     "title": "Linux",
     "hex": "FCC624",
+    "category": "systems-programming",
     "source": "https://www.linuxfoundation.org/the-linux-mark/"
   },
   {
     "slug": "ubuntu",
     "title": "Ubuntu",
     "hex": "E95420",
+    "category": "systems-programming",
     "source": "https://design.ubuntu.com/resources",
     "guidelines": "https://design.ubuntu.com/brand"
   },
@@ -576,12 +656,14 @@
     "slug": "googlecloud",
     "title": "Google Cloud",
     "hex": "4285F4",
+    "category": "cloud-deployment",
     "source": "https://cloud.google.com"
   },
   {
     "slug": "firebase",
     "title": "Firebase",
     "hex": "DD2C00",
+    "category": "cloud-deployment",
     "source": "https://firebase.google.com/brand-guidelines",
     "guidelines": "https://firebase.google.com/brand-guidelines"
   },
@@ -589,6 +671,7 @@
     "slug": "vercel",
     "title": "Vercel",
     "hex": "000000",
+    "category": "cloud-deployment",
     "source": "https://vercel.com/geist/brands",
     "guidelines": "https://vercel.com/geist/brands"
   },
@@ -596,6 +679,7 @@
     "slug": "netlify",
     "title": "Netlify",
     "hex": "00C7B7",
+    "category": "cloud-deployment",
     "source": "https://www.netlify.com/press/",
     "guidelines": "https://www.netlify.com/press/"
   },
@@ -603,6 +687,7 @@
     "slug": "digitalocean",
     "title": "DigitalOcean",
     "hex": "0080FF",
+    "category": "cloud-deployment",
     "source": "https://www.digitalocean.com/press/",
     "guidelines": "https://www.digitalocean.com/press/"
   },
@@ -610,6 +695,7 @@
     "slug": "cloudflare",
     "title": "Cloudflare",
     "hex": "F38020",
+    "category": "cloud-deployment",
     "source": "https://www.cloudflare.com/logo/",
     "guidelines": "https://www.cloudflare.com/trademark/"
   },
@@ -617,6 +703,7 @@
     "slug": "heroku",
     "title": "Heroku",
     "hex": "430098",
+    "category": "cloud-deployment",
     "source": "https://devcenter.heroku.com/articles/heroku-brand-guidelines#logos",
     "guidelines": "https://devcenter.heroku.com/articles/heroku-brand-guidelines"
   },
@@ -624,18 +711,21 @@
     "slug": "supabase",
     "title": "Supabase",
     "hex": "3FCF8E",
+    "category": "cloud-deployment",
     "source": "https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg"
   },
   {
     "slug": "mongodb",
     "title": "MongoDB",
     "hex": "47A248",
+    "category": "backend-api",
     "source": "https://www.mongodb.com/pressroom"
   },
   {
     "slug": "postgresql",
     "title": "PostgreSQL",
     "hex": "4169E1",
+    "category": "backend-api",
     "source": "https://wiki.postgresql.org/wiki/Logo",
     "guidelines": "https://www.postgresql.org/about/policies/trademarks/"
   },
@@ -643,6 +733,7 @@
     "slug": "mysql",
     "title": "MySQL",
     "hex": "4479A1",
+    "category": "backend-api",
     "source": "https://www.mysql.com/about/legal/logos.html",
     "guidelines": "https://www.mysql.com/about/legal/logos.html"
   },
@@ -650,12 +741,14 @@
     "slug": "sqlite",
     "title": "SQLite",
     "hex": "003B57",
+    "category": "backend-api",
     "source": "https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps"
   },
   {
     "slug": "redis",
     "title": "Redis",
     "hex": "FF4438",
+    "category": "backend-api",
     "source": "https://redis.io/brand-guidelines",
     "guidelines": "https://redis.io/brand-guidelines"
   },
@@ -663,6 +756,7 @@
     "slug": "apachekafka",
     "title": "Apache Kafka",
     "hex": "231F20",
+    "category": "backend-api",
     "source": "https://apache.org/logos",
     "guidelines": "https://www.apache.org/foundation/marks",
     "license": {
@@ -674,6 +768,7 @@
     "slug": "rabbitmq",
     "title": "RabbitMQ",
     "hex": "FF6600",
+    "category": "backend-api",
     "source": "https://www.rabbitmq.com",
     "guidelines": "https://www.rabbitmq.com/trademark-guidelines.html"
   },
@@ -681,12 +776,14 @@
     "slug": "elasticsearch",
     "title": "Elasticsearch",
     "hex": "005571",
+    "category": "backend-api",
     "source": "https://www.elastic.co/brand"
   },
   {
     "slug": "neo4j",
     "title": "Neo4j",
     "hex": "4581C3",
+    "category": "backend-api",
     "source": "https://neo4j.com/brand/#logo",
     "guidelines": "https://neo4j.com/brand/#logo"
   },
@@ -694,24 +791,28 @@
     "slug": "docker",
     "title": "Docker",
     "hex": "2496ED",
+    "category": "cloud-deployment",
     "source": "https://www.docker.com/company/newsroom/media-resources"
   },
   {
     "slug": "kubernetes",
     "title": "Kubernetes",
     "hex": "326CE5",
+    "category": "cloud-deployment",
     "source": "https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo"
   },
   {
     "slug": "helm",
     "title": "Helm",
     "hex": "0F1689",
+    "category": "cloud-deployment",
     "source": "https://helm.sh"
   },
   {
     "slug": "terraform",
     "title": "Terraform",
     "hex": "844FBA",
+    "category": "cloud-deployment",
     "source": "https://www.hashicorp.com/brand",
     "guidelines": "https://www.hashicorp.com/brand"
   },
@@ -719,6 +820,7 @@
     "slug": "pulumi",
     "title": "Pulumi",
     "hex": "8A3391",
+    "category": "cloud-deployment",
     "source": "https://www.pulumi.com",
     "guidelines": "https://www.pulumi.com/brand/"
   },
@@ -726,12 +828,14 @@
     "slug": "ansible",
     "title": "Ansible",
     "hex": "EE0000",
+    "category": "cloud-deployment",
     "source": "https://www.ansible.com/logos"
   },
   {
     "slug": "github",
     "title": "GitHub",
     "hex": "181717",
+    "category": "collaboration",
     "source": "https://github.com/logos",
     "guidelines": "https://github.com/logos"
   },
@@ -739,6 +843,7 @@
     "slug": "gitlab",
     "title": "GitLab",
     "hex": "FC6D26",
+    "category": "collaboration",
     "source": "https://about.gitlab.com/press/press-kit/",
     "guidelines": "https://about.gitlab.com/handbook/marketing/corporate-marketing/brand-activation/trademark-guidelines/"
   },
@@ -746,6 +851,7 @@
     "slug": "bitbucket",
     "title": "Bitbucket",
     "hex": "0052CC",
+    "category": "collaboration",
     "source": "https://atlassian.design/resources/logo-library",
     "guidelines": "https://atlassian.design/foundations/logos"
   },
@@ -753,6 +859,7 @@
     "slug": "jira",
     "title": "Jira",
     "hex": "0052CC",
+    "category": "collaboration",
     "source": "https://atlassian.design/resources/logo-library",
     "guidelines": "https://atlassian.design/foundations/logos/"
   },
@@ -760,12 +867,14 @@
     "slug": "notion",
     "title": "Notion",
     "hex": "000000",
+    "category": "collaboration",
     "source": "https://www.notion.so"
   },
   {
     "slug": "slack",
     "title": "Slack",
     "hex": "4A154B",
+    "category": "collaboration",
     "source": "https://slack.com/brand-guidelines",
     "guidelines": "https://slack.com/brand-guidelines"
   },
@@ -773,6 +882,7 @@
     "slug": "discord",
     "title": "Discord",
     "hex": "5865F2",
+    "category": "collaboration",
     "source": "https://discord.com/branding",
     "guidelines": "https://discord.com/branding"
   },
@@ -780,6 +890,7 @@
     "slug": "openai",
     "title": "OpenAI",
     "hex": "412991",
+    "category": "machine-learning",
     "source": "https://openai.com/brand",
     "guidelines": "https://openai.com/brand"
   },
@@ -787,6 +898,7 @@
     "slug": "huggingface",
     "title": "Hugging Face",
     "hex": "FFD21E",
+    "category": "machine-learning",
     "source": "https://huggingface.co/brand",
     "guidelines": "https://huggingface.co/brand"
   },
@@ -794,12 +906,14 @@
     "slug": "langchain",
     "title": "LangChain",
     "hex": "1C3C3C",
+    "category": "machine-learning",
     "source": "https://www.langchain.com"
   },
   {
     "slug": "meta",
     "title": "Meta",
     "hex": "0467DF",
+    "category": "systems-programming",
     "source": "https://www.meta.com",
     "guidelines": "https://www.facebook.com/brand/resources/meta/company-brand"
   },
@@ -807,30 +921,35 @@
     "slug": "weightsandbiases",
     "title": "Weights & Biases",
     "hex": "FFBE00",
+    "category": "machine-learning",
     "source": "https://wandb.ai"
   },
   {
     "slug": "grafana",
     "title": "Grafana",
     "hex": "F46800",
+    "category": "collaboration",
     "source": "https://grafana.com"
   },
   {
     "slug": "prometheus",
     "title": "Prometheus",
     "hex": "E6522C",
+    "category": "collaboration",
     "source": "https://prometheus.io"
   },
   {
     "slug": "sentry",
     "title": "Sentry",
     "hex": "362D59",
+    "category": "collaboration",
     "source": "https://sentry.io/branding/"
   },
   {
     "slug": "newrelic",
     "title": "New Relic",
     "hex": "1CE783",
+    "category": "collaboration",
     "source": "https://newrelic.com/about/media-assets",
     "guidelines": "https://newrelic.com/about/media-assets#guidelines"
   },
@@ -838,6 +957,7 @@
     "slug": "datadog",
     "title": "Datadog",
     "hex": "632CA6",
+    "category": "collaboration",
     "source": "https://www.datadoghq.com/about/resources",
     "guidelines": "https://www.datadoghq.com/about/resources/"
   },
@@ -845,12 +965,14 @@
     "slug": "airbyte",
     "title": "Airbyte",
     "hex": "615EFF",
+    "category": "collaboration",
     "source": "https://airbyte.com"
   },
   {
     "slug": "apacheairflow",
     "title": "Apache Airflow",
     "hex": "017CEE",
+    "category": "collaboration",
     "source": "https://apache.org/logos",
     "guidelines": "https://www.apache.org/foundation/marks",
     "license": {
@@ -862,6 +984,7 @@
     "slug": "d3",
     "title": "D3",
     "hex": "F9A03C",
+    "category": "web-development",
     "source": "https://github.com/d3/d3-logo/tree/6d9c471aa852033501d00ca63fe73d9f8be82d1d"
   }
 ]
