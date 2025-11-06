@@ -1,0 +1,46 @@
+{
+  "proposal-1-role-based": {
+    "frontend": ["react", "vuedotjs", "angular", "svelte", "nextdotjs", "nuxt", "astro", "solid", "qwik", "html5", "css", "tailwindcss", "bootstrap", "materialdesign", "sass", "less", "stylus", "d3"],
+    "backend": ["nodedotjs", "django", "flask", "fastapi", "spring", "laravel", "symfony", "rubyonrails", "phoenixframework"],
+    "languages": ["javascript", "typescript", "python", "rust", "go", "openjdk", "kotlin", "scala", "apachegroovy", "c", "cplusplus", "dotnet", "sharp", "fsharp", "php", "ruby", "crystal", "elixir", "erlang", "dart", "swift"],
+    "devops": ["docker", "kubernetes", "helm", "terraform", "pulumi", "ansible", "github", "gitlab", "bitbucket"],
+    "databases": ["mongodb", "postgresql", "mysql", "sqlite", "redis", "apachekafka", "rabbitmq", "elasticsearch", "neo4j"],
+    "cloud": ["googlecloud", "firebase", "vercel", "netlify", "digitalocean", "cloudflare", "heroku", "supabase"],
+    "data-ml": ["pandas", "numpy", "jupyter", "scikitlearn", "tensorflow", "pytorch", "opencv", "openai", "huggingface", "langchain", "weightsandbiases", "airbyte", "apacheairflow"],
+    "mobile": ["android", "androidstudio", "ios", "flutter", "xcode", "apple"],
+    "tooling": ["webpack", "vite", "babel", "eslint", "prettier", "jest", "vitest", "cypress", "storybook", "apachemaven", "gradle", "poetry", "pipx", "anaconda", "pydantic", "qt", "webassembly", "wordpress", "meta", "grafana", "prometheus", "sentry", "newrelic", "datadog", "jira", "notion", "slack", "discord", "linux", "ubuntu"]
+  },
+  "proposal-2-layer-based": {
+    "languages": ["javascript", "typescript", "python", "rust", "go", "openjdk", "kotlin", "scala", "apachegroovy", "c", "cplusplus", "dotnet", "sharp", "fsharp", "php", "ruby", "crystal", "elixir", "erlang", "dart", "swift", "webassembly"],
+    "ui-layer": ["react", "vuedotjs", "angular", "svelte", "solid", "qwik", "html5", "css", "tailwindcss", "bootstrap", "materialdesign", "sass", "less", "stylus", "d3"],
+    "application-layer": ["nextdotjs", "nuxt", "astro", "django", "flask", "fastapi", "spring", "laravel", "symfony", "rubyonrails", "phoenixframework", "nodedotjs"],
+    "data-layer": ["mongodb", "postgresql", "mysql", "sqlite", "redis", "apachekafka", "rabbitmq", "elasticsearch", "neo4j"],
+    "platform-layer": ["docker", "kubernetes", "helm", "linux", "ubuntu"],
+    "cloud-services": ["googlecloud", "firebase", "vercel", "netlify", "digitalocean", "cloudflare", "heroku", "supabase"],
+    "developer-tools": ["github", "gitlab", "bitbucket", "webpack", "vite", "babel", "eslint", "prettier", "jest", "vitest", "cypress", "storybook", "terraform", "pulumi", "ansible", "apachemaven", "gradle", "poetry", "pipx", "anaconda", "pydantic", "qt", "wordpress", "meta", "grafana", "prometheus", "sentry", "newrelic", "datadog", "jira", "notion", "slack", "discord", "jupyter", "pandas", "numpy", "scikitlearn", "tensorflow", "pytorch", "opencv", "openai", "huggingface", "langchain", "weightsandbiases", "airbyte", "apacheairflow", "android", "androidstudio", "ios", "flutter", "xcode", "apple"]
+  },
+  "proposal-3-ecosystem-based": {
+    "web-core": ["html5", "css", "javascript", "typescript", "webassembly"],
+    "react-ecosystem": ["react", "nextdotjs", "vite"],
+    "vue-ecosystem": ["vuedotjs", "nuxt"],
+    "python-ecosystem": ["python", "django", "flask", "fastapi", "pydantic", "poetry", "pipx", "anaconda", "jupyter", "pandas", "numpy", "scikitlearn", "tensorflow", "pytorch", "opencv"],
+    "jvm-ecosystem": ["openjdk", "kotlin", "scala", "apachegroovy", "spring", "gradle", "apachemaven"],
+    "microsoft-stack": ["dotnet", "sharp", "fsharp"],
+    "google-stack": ["googlecloud", "firebase", "angular", "dart", "flutter"],
+    "devops-cncf": ["docker", "kubernetes", "helm", "prometheus", "grafana"],
+    "databases": ["mongodb", "postgresql", "mysql", "sqlite", "redis", "apachekafka", "rabbitmq", "elasticsearch", "neo4j"],
+    "cloud-platforms": ["vercel", "netlify", "heroku", "cloudflare", "digitalocean", "supabase"],
+    "independent-tools": ["github", "gitlab", "bitbucket", "slack", "discord", "notion", "jira", "sentry", "newrelic", "datadog", "svelte", "solid", "qwik", "astro", "webpack", "babel", "eslint", "prettier", "jest", "vitest", "cypress", "storybook", "tailwindcss", "bootstrap", "materialdesign", "sass", "less", "stylus", "rust", "go", "c", "cplusplus", "qt", "php", "laravel", "symfony", "wordpress", "ruby", "rubyonrails", "crystal", "elixir", "phoenixframework", "erlang", "swift", "xcode", "android", "androidstudio", "apple", "ios", "linux", "ubuntu", "terraform", "pulumi", "ansible", "nodedotjs", "openai", "huggingface", "langchain", "meta", "weightsandbiases", "airbyte", "apacheairflow", "d3"]
+  },
+  "proposal-4-usecase-based": {
+    "web-development": ["html5", "css", "javascript", "typescript", "react", "vuedotjs", "angular", "svelte", "nextdotjs", "nuxt", "astro", "solid", "qwik", "tailwindcss", "bootstrap", "materialdesign", "sass", "less", "stylus", "webpack", "vite", "babel", "d3"],
+    "backend-api": ["nodedotjs", "python", "django", "flask", "fastapi", "spring", "laravel", "symfony", "rubyonrails", "phoenixframework", "mongodb", "postgresql", "mysql", "sqlite", "redis", "apachekafka", "rabbitmq", "elasticsearch", "neo4j"],
+    "mobile-apps": ["android", "androidstudio", "ios", "flutter", "swift", "dart", "xcode", "apple"],
+    "data-science": ["jupyter", "pandas", "numpy", "scikitlearn", "python", "anaconda"],
+    "machine-learning": ["tensorflow", "pytorch", "opencv", "openai", "huggingface", "langchain", "weightsandbiases"],
+    "cloud-deployment": ["docker", "kubernetes", "helm", "googlecloud", "firebase", "vercel", "netlify", "heroku", "cloudflare", "digitalocean", "supabase", "terraform", "pulumi", "ansible"],
+    "collaboration": ["github", "gitlab", "bitbucket", "slack", "discord", "notion", "jira", "grafana", "prometheus", "sentry", "newrelic", "datadog", "airbyte", "apacheairflow"],
+    "systems-programming": ["rust", "go", "c", "cplusplus", "openjdk", "kotlin", "scala", "apachegroovy", "dotnet", "sharp", "fsharp", "php", "ruby", "crystal", "elixir", "erlang", "linux", "ubuntu", "qt", "webassembly", "wordpress", "meta", "apachemaven", "gradle", "poetry", "pipx", "pydantic", "eslint", "prettier", "jest", "vitest", "cypress", "storybook"]
+  },
+  "main": {}
+}
