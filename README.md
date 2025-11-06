@@ -1,5 +1,36 @@
 # Tech Stack Stickers
 
+## 📂 Organization Strategy
+
+**This branch uses: Architecture Layer Organization**
+
+Icons organized by technical architecture layers
+
+### Directory Structure
+```
+assets/svg/{layer}/*.svg
+```
+
+### Categories
+- `application-layer/`
+- `cloud-services/`
+- `data-layer/`
+- `developer-tools/`
+- `languages/`
+- `platform-layer/`
+- `ui-layer/`
+
+### Benefits
+- Follows standard architecture diagrams
+- Easy to build stack from bottom-up
+- Aligns with technical documentation
+- Great for system design discussions
+
+### Ideal Use Case
+"What's in my data layer?" or "Show me all UI technologies"
+
+---
+
 Pipeline to compile a curated list of tech stack logos and export high-resolution **FULL-COLOR** SVG and PNG sticker assets in three sizes (Small, Medium, Large).
 
 ## ✅ Project Status
