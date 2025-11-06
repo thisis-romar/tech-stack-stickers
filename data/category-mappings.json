@@ -36,7 +36,7 @@
     "web-development": ["html5", "css", "javascript", "typescript", "react", "vuedotjs", "angular", "svelte", "nextdotjs", "nuxt", "astro", "solid", "qwik", "tailwindcss", "bootstrap", "materialdesign", "sass", "less", "stylus", "webpack", "vite", "babel", "d3"],
     "backend-api": ["nodedotjs", "python", "django", "flask", "fastapi", "spring", "laravel", "symfony", "rubyonrails", "phoenixframework", "mongodb", "postgresql", "mysql", "sqlite", "redis", "apachekafka", "rabbitmq", "elasticsearch", "neo4j"],
     "mobile-apps": ["android", "androidstudio", "ios", "flutter", "swift", "dart", "xcode", "apple"],
-    "data-science": ["jupyter", "pandas", "numpy", "scikitlearn", "python", "anaconda"],
+    "data-science": ["jupyter", "pandas", "numpy", "scikitlearn", "anaconda"],
     "machine-learning": ["tensorflow", "pytorch", "opencv", "openai", "huggingface", "langchain", "weightsandbiases"],
     "cloud-deployment": ["docker", "kubernetes", "helm", "googlecloud", "firebase", "vercel", "netlify", "heroku", "cloudflare", "digitalocean", "supabase", "terraform", "pulumi", "ansible"],
     "collaboration": ["github", "gitlab", "bitbucket", "slack", "discord", "notion", "jira", "grafana", "prometheus", "sentry", "newrelic", "datadog", "airbyte", "apacheairflow"],
