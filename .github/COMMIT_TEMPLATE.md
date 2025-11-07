@@ -8,12 +8,34 @@
 # - Why it changed
 # - Any side effects
 
+# ⚠️ ATTRIBUTION VALIDATION CHECKLIST (Required before committing)
+# Before using AI-Attribution block, verify:
+# [ ] Ran activate_ai_model_detection_tools in current session
+# [ ] Ran mcp_ai-model-dete_detect_current_model successfully
+# [ ] Tool returned SUCCESS (not error/disabled)
+# [ ] Model ID extracted from tool output (not guessed)
+# [ ] Vendor extracted from tool output
+# [ ] Session UUID or current timestamp
+# 
+# ❌ DO NOT commit if:
+# - Tool unavailable → Use UNKNOWN fallback below
+# - Citing "previous detection" → Re-run detection now
+# - Guessing based on patterns → Invalid attribution
+
 AI-Attribution:
 - Model: <platform/model-id> (Vendor)
 - Session: <chat-session-uuid or manual-commit-YYYY-MM-DD-HHMM>
 - Context: <brief context>
 
 Co-authored-by: <Platform-Name> (<platform/model-id>) <admin+llm-[normalized-model-id]@emblemprojects.com>
+
+# FALLBACK when detection tool unavailable:
+# AI-Attribution:
+# - Model: UNKNOWN (detection-tool-unavailable)
+# - Session: manual-verification-needed-2025-11-07-HHMM
+# - Context: <context> ⚠️ Model identity not verified
+# 
+# Co-authored-by: Unknown_AI_Model (unknown) <admin+llm-unknown@emblemprojects.com>
 
 # Examples
 # feat(stickers): add colorized SVG export with brand hex

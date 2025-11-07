@@ -400,6 +400,70 @@ Co-authored-by: anthropic_Claude (copilot/claude-sonnet-4.5) <admin+llm-claude-s
 - Prefer real Session UUIDs via your Copilot chat extractor; fall back to `manual-commit-YYYY-MM-DD-HHMM` when unavailable
 - Keep a single Co-authored-by trailer
 
+## AI Model Identity Protocol - STRICT RULES ⚠️
+
+**CRITICAL**: When asked about AI model identity or before making attributed commits:
+
+### ✅ REQUIRED: Tool-Based Detection Only
+1. **Activate detection tools**:
+   ```
+   activate_ai_model_detection_tools
+   ```
+
+2. **Run detection in current session**:
+   ```
+   mcp_ai-model-dete_detect_current_model
+   ```
+
+3. **Use ONLY current tool results**:
+   - Model ID from `name` field
+   - Vendor from `vendor` field
+   - No caching, no assumptions
+
+### ❌ FORBIDDEN: Educated Guessing
+**NEVER** claim model identity based on:
+- ❌ Previous detection results from earlier in conversation
+- ❌ Response patterns or writing style
+- ❌ Conversation context or memory
+- ❌ "I think I am..." or "Based on patterns, I appear to be..."
+
+### 🚨 When Detection Tool Unavailable
+
+**Required Response**:
+```
+I cannot determine my current model identity. The detection tool is 
+unavailable or disabled. Previous detection results may be stale and 
+should not be trusted for commit attribution.
+```
+
+**For Commits**:
+- ❌ DO NOT create AI-attributed commits without current detection
+- ✅ USE fallback attribution:
+  ```
+  AI-Attribution:
+  - Model: UNKNOWN (detection-tool-unavailable)
+  - Session: manual-verification-needed-YYYY-MM-DD-HHMM
+  - Context: [context] ⚠️ Model identity not verified
+  
+  Co-authored-by: Unknown_AI_Model (unknown) <admin+llm-unknown@emblemprojects.com>
+  ```
+
+### 📋 Pre-Commit Validation Checklist
+
+Before every AI-attributed commit, verify:
+- [ ] Detection tool activated in current session
+- [ ] Tool returned SUCCESS (not error/disabled)
+- [ ] Model ID and Vendor extracted from tool output
+- [ ] No guessing or assumptions made
+- [ ] Timestamp or Session UUID is current
+
+**Reject commits that**:
+- Cite "based on previous detection"
+- Cite "my response patterns suggest"
+- Lack current tool verification
+
+**If tool fails**: Use UNKNOWN fallback or skip AI attribution entirely
+
 ## Dependencies
 - `simple-icons`: Official brand icon collection
 - `sharp`: High-performance image processing

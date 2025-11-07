@@ -72,6 +72,74 @@ Attribute AI when it:
 
 Lightweight autocomplete, formatting, or trivial edits do not require attribution.
 
+## Forced Uncertainty Protocol ⚠️
+
+### When Model Detection Tool is Unavailable
+
+If the AI Model Detector MCP tool is disabled, unavailable, or returns an error:
+
+**DO NOT** proceed with standard attribution. Instead:
+
+#### Option 1: Use UNKNOWN Fallback Attribution
+```
+AI-Attribution:
+- Model: UNKNOWN (detection-tool-unavailable)
+- Session: manual-verification-needed-YYYY-MM-DD-HHMM
+- Context: <brief context> ⚠️ Model identity not verified
+
+Co-authored-by: Unknown_AI_Model (unknown) <admin+llm-unknown@emblemprojects.com>
+```
+
+#### Option 2: Skip AI Attribution Entirely
+If fallback is not acceptable for your use case, commit without the AI-Attribution block:
+```
+<type>(<scope>): <subject>
+
+<body>
+```
+*Note: This loses traceability but avoids incorrect attribution.*
+
+### Prohibited Practices
+
+**NEVER** create attributed commits based on:
+- ❌ "Previous detection results from earlier in the conversation"
+- ❌ "My response patterns suggest I am..."
+- ❌ "Based on context, I appear to be..."
+- ❌ Cached or stale model identity information
+- ❌ Educated guesses or assumptions
+
+### When to Re-Verify Model Identity
+
+Re-run detection in these scenarios:
+1. **Before every attributed commit** - Model may have switched
+2. **After session interruption** - Connection may have changed backend
+3. **Tool was previously disabled** - Previous results are invalid
+4. **Uncertainty about current model** - Always verify when in doubt
+
+### Valid Detection Sequence
+
+```bash
+# 1. Activate tools
+activate_ai_model_detection_tools
+
+# 2. Detect current model
+mcp_ai-model-dete_detect_current_model
+
+# 3. Extract from tool output (not conversation memory):
+#    - Model ID from 'name' field
+#    - Vendor from 'vendor' field
+
+# 4. Use immediately in commit
+git commit -m "..."
+```
+
+### Accountability
+
+The purpose of GIT-ATT-001 is **accurate attribution**, not convenience. When model identity cannot be verified:
+- **Accuracy > Completeness** - Better to omit than to misattribute
+- **Explicit uncertainty** - Use UNKNOWN fallback to signal verification gap
+- **Re-verification always valid** - Running detection multiple times is encouraged
+
 ## Tooling and references
 - Official standard: GIT-ATT-001 v1.1.0 (referenced from profile standards)
 - Global hooks and commit template installer available in your VS Code profile (see profile docs)
